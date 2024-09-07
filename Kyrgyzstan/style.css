@@ -1,0 +1,444 @@
+body{ 
+    background-color: white; 
+} 
+ 
+.img-bg { 
+    width: 220vh; 
+} 
+ 
+.header-logo{ 
+    position: absolute; 
+    width: 148px; 
+    height: 27px; 
+    left: 910px; 
+    top: 90px; 
+} 
+.header-offer{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 0px; 
+    gap: 24px; 
+    position: absolute; 
+    width: 955.35px; 
+    height: 276.27px; 
+    left: 514px; 
+    top: 339.2px;     
+} 
+.offer_city{ 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    padding: 8px 17px; 
+    gap: 24px; 
+ 
+    width: 221px; 
+    height: 34px; 
+ 
+    background: #FFFFFF; 
+    border-radius: 78px; 
+} 
+
+.offer_text{ 
+    width: 226px; 
+    height: 18px; 
+    font-family: 'Montserrat'; 
+    font-style: normal; 
+    font-weight: 800; 
+    font-size: 15px; 
+    line-height: 18px; 
+    text-align: center; 
+    letter-spacing: 0.05em; 
+    text-transform: uppercase; 
+
+    color: #000000; 
+} 
+
+ 
+.a-btn { 
+    text-decoration: none; 
+    color: #fff; 
+    font-size: 20px; 
+} 
+ 
+.offer_gid{ 
+    width: 772px; 
+    height: 73px; 
+    font-family: 'Montserrat'; 
+    font-style: normal; 
+    font-weight: 800; 
+    font-size: 60px; 
+    line-height: 73px; 
+    text-align: center; 
+    letter-spacing: 0.145em; 
+    text-transform: uppercase; 
+    color: #FFFFFF; 
+} 
+
+.offer_road{ 
+    width: 471px; 
+    height: 24px; 
+    font-family: 'Montserrat'; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 20px; 
+    line-height: 24px; 
+    text-align: center; 
+    letter-spacing: 0.05em; 
+    color: #FFFFFF; 
+} 
+
+.button{ 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    padding: 18px 52px; 
+    gap: 10px; 
+ 
+    width: 247px; 
+    height: 56px; 
+    background: #016e4e; 
+    border-radius: 119px; 
+} 
+
+.button_text{ 
+    width: 143px; 
+    height: 20px; 
+    font-family: 'Montserrat'; 
+    font-style: normal; 
+    font-weight: 800; 
+    font-size: 16px; 
+    line-height: 20px; 
+    text-align: center; 
+    letter-spacing: 0.05em; 
+    color: #FFFFFF; 
+    flex: none; 
+    order: 0; 
+    flex-grow: 0; 
+}
+
+.arrow{ 
+    position: absolute; 
+    width: 21.14px; 
+    height: 28.27px; 
+    left: 804.86px; 
+    top: 819px; 
+    border: 1px solid #ECD8D8; 
+} 
+ 
+.crop img { 
+    width: 2300px; 
+    height: 1080px; 
+    margin: -50px 0 0 -100px; 
+} 
+
+.navig{ 
+ 
+    position: absolute; 
+    width: 1140px; 
+    height: 920px; 
+    left: 230px; 
+    top: 105px; 
+}
+
+.zagolovok{ 
+    position: absolute; 
+    width: 450px; 
+    height: 36.52px; 
+    left: 550px; 
+    top: 1055px; 
+ 
+    font-family: 'Montserrat'; 
+    font-style: normal; 
+    font-weight: 800; 
+    color: #304041; 
+} 
+
+.begevii_kvadrat{ 
+    position: absolute; 
+    width: 672px; 
+    height: 640.64px; 
+    left: 100px; 
+    top: 1190.24px; 
+ 
+    background: #FFF6F1; 
+ 
+    border: 80; 
+}
+
+.mar{ 
+ 
+    position: absolute; 
+    width: 119px; 
+    height: 18px; 
+    left: 100px; 
+    top: 90px; 
+ 
+    font-family: 'Montserrat'; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 15px; 
+    line-height: 18px; 
+    letter-spacing: 0.05em; 
+    text-transform: uppercase; 
+ 
+    color: #789AA0; 
+} 
+
+.centre{ 
+   position: absolute; 
+   width: 335px; 
+   height: 29px; 
+   left: 100px; 
+   top: 150px; 
+   font-family: 'Montserrat'; 
+   font-style: normal; 
+   font-weight: 800; 
+   font-size: 24px; 
+   line-height: 29px; 
+   letter-spacing: 0.05em; 
+   text-transform: uppercase; 
+   color: #304041; 
+}
+
+.kazahski_text{ 
+    position: absolute; 
+    width: 521px; 
+    height: 299px; 
+    left: 100px; 
+    top: 250px; 
+     
+    font-family: 'Montserrat'; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 15px; 
+    line-height: 23px; 
+    letter-spacing: 0.05em; 
+     
+    color: #304041; 
+      
+} 
+ .westminster { 
+    position: absolute; 
+    width: 475px; 
+    height: 730.64px; 
+    left: 773px; 
+    top: 1190.24px; 
+     
+    background: url(charles-postiaux-FLgZIZArcHg-unsplash.jpg); 
+    border-radius: 0px 5px 5px 0px; 
+     
+} 
+     
+.westminster-img { 
+    height: 1200.64px; 
+    width: 1300px; 
+} 
+     
+.arrow2{ 
+    position: absolute; 
+    width: 68px; 
+    height: 17px; 
+    left: 303px; 
+    top: 1746px; 
+ } 
+     
+.button2{ 
+    box-sizing: border-box; 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    padding: 18px 49px; 
+    gap: 10px; 
+     
+    position: absolute; 
+    width: 332px; 
+    height: 55.28px; 
+    left: 634px; 
+    top: 1919.72px; 
+     
+    border: 1px
+    solid #016e4e; 
+    border-radius: 94px; 
+ } 
+
+ .button_text2{ 
+    width: 234px; 
+    height: 20px; 
+     
+    font-family: 'Montserrat'; 
+    font-style: normal; 
+    font-weight: 800; 
+    font-size: 16px; 
+    line-height: 20px; 
+    text-align: center; 
+    letter-spacing: 0.05em; 
+     
+    color: #016e4e; 
+    flex: none; 
+    order: 0; 
+    flex-grow: 0; 
+ }
+
+.history{ 
+    position: absolute; 
+    width: 1370px; 
+    height: 756px; 
+    left: 230px; 
+    top: 2121px; 
+ } 
+
+.history_head{ 
+    position: absolute; 
+    width: 563px; 
+    height: 37px; 
+    left: 531px; 
+    top: 100px; 
+     
+    font-family: 'Montserrat'; 
+    font-style: normal; 
+    font-weight: 800; 
+    font-size: 30px; 
+    line-height: 37px; 
+    letter-spacing: 0.05em; 
+    text-transform: uppercase; 
+     
+    color: #304041; 
+ } 
+
+.abilities{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 0px; 
+    gap: 57px; 
+     
+    position: absolute; 
+    width: 407px; 
+    height: 312px; 
+    left: 230px; 
+    top: 450px; 
+} 
+
+.abilitiy{ 
+    width: 407px; 
+    height: 66px; 
+    flex: none; 
+    order: 0; 
+    flex-grow: 0; 
+ } 
+
+ .rectangle{ 
+     
+    position: absolute; 
+    height: 100px; 
+    left: 15.83%; 
+    right: 82.45%; 
+    top: -20%; 
+    bottom: 2.37%; 
+     
+    background: #016e4e; 
+    border-radius: 23px; 
+    transform: rotate(90deg); 
+} 
+
+.history.text{ 
+     
+    position: absolute; 
+    margin-left:34%; 
+    right: 0%; 
+    top: 33.33%; 
+    bottom: 6.06%; 
+     
+    font-family: 'Montserrat'; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 16px; 
+    line-height: 20px; 
+    letter-spacing: 0.05em; 
+    text-transform: uppercase; 
+    color: #304041; 
+} 
+
+.rectangle2{ 
+     
+    position: absolute; 
+    height: 100px; 
+    left: 15.83%; 
+    right: 82.45%; 
+    top: 20%; 
+    bottom: 2.37%; 
+         
+    background: #016e4e; 
+    border-radius: 23px; 
+    transform: rotate(90deg); 
+} 
+
+.rectangle3{ 
+     
+    position: absolute; 
+    height: 100px; 
+    left: 15.83%; 
+    right: 82.45%; 
+    top: 60%; 
+    bottom: 2.37%; 
+         
+    background: #016e4e; 
+    border-radius: 23px; 
+    transform: rotate(90deg);  
+} 
+
+.london{ 
+    position: absolute; 
+    width: 787px; 
+    height: 626px; 
+    left: 813px; 
+    top: 190px; 
+} 
+
+.footer{ 
+    position: absolute; 
+    width: 582px; 
+    height: 17px; 
+    left: 230px; 
+    top: 3024px; 
+} 
+
+.footer_text_prava{ 
+    position: absolute; 
+    width: 582px; 
+    height: 17px; 
+    left: 230px; 
+    top: 10px; 
+} 
+
+.london_udov{ 
+        
+     
+    position: absolute; 
+    width: 582px; 
+    height: 17px; 
+    left: 479px; 
+    top: 10px; 
+     
+    font-family: 'Montserrat'; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 14px; 
+    line-height: 17px; 
+    letter-spacing: 0.05em; 
+     
+} 
+     
+     
+#gor { 
+    height: 560px; 
+}
+
+.img-block-left {
+    width: 848px;
+    height: 624px;
+    position: absolute;
+    margin-top: 1205px;
+    margin-left: 772px;
+}
